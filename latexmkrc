@@ -27,4 +27,4 @@ $silent = 1;
 $pdf_previewer = 'open';
 
 # Also remove pdfsync files on clean
-$clean_ext = '%R.synctex.gz';
+$clean_ext = '%R.synctex.gz %R.bbl %R.nav %R.snm';
